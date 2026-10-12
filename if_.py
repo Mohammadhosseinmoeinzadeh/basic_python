@@ -17,3 +17,24 @@ a = 10
 
 if a > 5 : 
     print("a bozorg tar az 5 ast")
+#------------------------------------------
+num = int(input("enter a number : "))
+
+if num % 2 == 0 :
+    print("zoj")
+else :
+    print("fard")
+#------------------------------------------
+x = int(input("enter a number x: "))
+y = int(input("enter a number y: "))
+z = int(input("enter a number z: "))
+a = 0
+if x > y:
+    a = x
+else : 
+    a = y 
+    
+if a > z:
+    print(a)
+else:
+    print(z)
