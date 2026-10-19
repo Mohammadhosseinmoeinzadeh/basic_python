@@ -5,7 +5,7 @@ for i in range(5):
         x = a 
 print(x)
 #-----------------------------------------------------------------
-x = int(input("enter a number: "))
+x = 0
 a = 1
 while a != 0:
     a = int(input("enter a number: "))
