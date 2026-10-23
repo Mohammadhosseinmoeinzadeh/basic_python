@@ -25,4 +25,4 @@ elif des == "nothing":
 else :
     print("food not found")
     
-print(des_price + food_price)
+print("You must pay the amount of ",des_price + food_price,"$")
