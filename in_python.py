@@ -1,5 +1,5 @@
-number = {1,2,3,4,5,7,10,13,11,}
+number = {10,15,11,12,100,157,45}
 if 10 in number :
-    print("ok!")
-else : 
-    print("no!")
+    print ("number 10 is available")
+else :
+    print("number is not available")
