@@ -3,9 +3,12 @@ quiz_riyazi = {"2*2":"4","2/2":"1","2*3":"6"}
 quiz_python = {"shomaresh horof?":"len","data taype adad sahih? ":"int"}
 
 score = 0
+
 for i in menu:
     print(i,menu[i])
+    
 x = input("enter quiz number: ")
+
 if x == "1":
     print("soalat riyazi")
     for qu in quiz_riyazi:
@@ -15,6 +18,8 @@ if x == "1":
             score +=1
         else:
             print("wrong!")
+
+
 elif x == "2":
        print("soalat python")
        for qu1 in quiz_python:
@@ -24,6 +29,8 @@ elif x == "2":
                 score +=1
             else:
                 print("wrong!")
+                
+                
 elif x == "0":
     print("your exit game!")
 print(score)
